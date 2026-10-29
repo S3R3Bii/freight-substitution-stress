@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "actual_artist_values": 288,
+  "heatmap_annotations": 16,
+  "contrast_checks": 16,
+  "min_required_annotation_contrast": 4.5,
+  "export_hashes": 9,
+  "visual_review": "Recorded separately; coordinate checks alone are not accessibility conformance."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "exact_csv_and_certificate_scalar_fields": 759047,
+  "protected_dependencies": 17,
+  "phases": [
+    {
+      "status": "PASS",
+      "phase": "development",
+      "cases": 256,
+      "exact_checks": 813520,
+      "monotonicity_checks": 1152,
+      "positive_flow_edges": 54635,
+      "zero_demand_cases": 0,
+      "optimality": "Every exact feasible flow equals a separately reconstructed cut capacity; residual reachability also checked",
+      "source_projection_checks": 85632
+    },
+    {
+      "status": "PASS",
+      "phase": "held",
+      "cases": 256,
+      "exact_checks": 934029,
+      "monotonicity_checks": 1152,
+      "positive_flow_edges": 61591,
+      "zero_demand_cases": 0,
+      "optimality": "Every exact feasible flow equals a separately reconstructed cut capacity; residual reachability also checked",
+      "source_projection_checks": 85632
+    }
+  ],
+  "execution_timing": "Original per-case UTC/runtime records retained; replay timing is variable and excluded from exact identity."
+}
