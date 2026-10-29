@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "phase": "development",
+  "cases": 256,
+  "exact_checks": 813520,
+  "monotonicity_checks": 1152,
+  "positive_flow_edges": 54635,
+  "zero_demand_cases": 0,
+  "optimality": "Every exact feasible flow equals a separately reconstructed cut capacity; residual reachability also checked",
+  "source_projection_checks": 85632
+}

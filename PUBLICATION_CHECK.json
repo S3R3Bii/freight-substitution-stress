@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-29T19:59:48.039308+00:00",
+  "timestamp_utc": "2026-10-29T20:02:02.389029+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 15,
+  "files_checked": 24,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -17,8 +17,17 @@
     "data/source/flows.csv.gz": "5a83b81b8a4c5b366e4671c6bd4b6262066f785879dae0995192d32b030c3862",
     "data/source/manifest.json": "a111023607b5a9eee869e91c758304248445c7475580dd0f584a676a308ed439",
     "protocol.json": "8a12549b4cbbc4e1aee4402cc7b4e54070dfb6f2fe067b9c78d930dcbb33559b",
-    "src/ingest.py": "30649123f1808fc1052a2c7df82ccd59e9bf45e4d8078446e763a7b22c21326a",
-    "src/verify_source.py": "d0f434bda60e09b4c0ace8a0207c614133164934040c07f2e3d4094522254ad5"
+    "results/development-VERIFICATION.json": "77a2f13af2837ab241f5c3178c03cc9e7deda73cab297aa4466ac21d1ca7de94",
+    "results/development-certificates.json.gz": "00011d0e248bbbe93ac47d179f1da32d70247d9a8452ecefd002a78113358b20",
+    "results/development-execution.json": "3ffc580df8116191558ba545673329f011b8eda710368da4129b32776948d72f",
+    "results/development.csv": "ef0ceeee737898294cc11d3af8e717d1e4a4e626d8691b72d57becd4b525a2cb",
+    "src/ingest.py": "e4a52ceaa1c4ca39ed5dddf56dfbdf9b6b5e3c75902d285268f4e262b7410fc8",
+    "src/model.py": "bd4bcf0c7ee84725dc48254cb4e9f7d6003140b2eb631bd3bf5a5151267321fb",
+    "src/run_analysis.py": "fa0c030e807eac1dfbe73a7aa2738b6ad59d35357531fe324672823bf64ba0a1",
+    "src/verify_freeze.py": "f01013d6ae0d01a839fc3fd779964e9cfa311626416dd8248aa6fa9c4c337d58",
+    "src/verify_results.py": "97c33b652d8f7b1221c845088bbe55bb76ff6d91fc2625d86fc3dab4400b6454",
+    "src/verify_source.py": "04d75af283375b0ce3997304e884b14a6e761f0a65e663a6209f1eb1558f5992",
+    "tests/test_flow.py": "17586e13907c14419fee1ff341827138c3a3e0b50bb1df43ce1c56fed789d38d"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,
