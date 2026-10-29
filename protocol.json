@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "benchmark_year": 2022,
+  "source_version": "FAF6.0",
+  "source_url": "https://faf.ornl.gov/faf6/data/Download_Files/ZIP/FAF6.0_State.zip",
+  "filters": {
+    "trade_type": 2,
+    "fr_inmode": 3,
+    "dms_mode": 1
+  },
+  "development_commodities": [
+    2,
+    12,
+    24,
+    32
+  ],
+  "held_commodities": [
+    5,
+    17,
+    34,
+    36
+  ],
+  "closed_entry_states": [
+    6,
+    48,
+    36,
+    53
+  ],
+  "gateway_headroom": [
+    "0",
+    "1/4",
+    "1/2",
+    "1"
+  ],
+  "corridor_multiplier": [
+    "1/4",
+    "1"
+  ],
+  "support": [
+    "strict",
+    "pooled"
+  ],
+  "origin_gateway_multiplier": "1",
+  "primary": {
+    "headroom": "1/4",
+    "corridor": "1",
+    "support": "strict"
+  },
+  "units": "thousand tons in the 2022 benchmark",
+  "seed": null,
+  "selection": "No fitting, model selection, tuning or randomized computation; all 512 cases retained.",
+  "quality_gates": [
+    "Documented schema and units",
+    "Nonnegative finite tonnage",
+    "Unique source dimensions",
+    "Independent source-row and aggregate reconciliation",
+    "All eight fixed commodities and four fixed closures retained, including zero demands"
+  ]
+}
