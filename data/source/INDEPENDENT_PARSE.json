@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "independent_parser": "pandas C CSV engine versus production csv.DictReader",
+  "source_rows": 599529,
+  "selected_rows": 8563,
+  "scalar_checks": 102756,
+  "publication": "No raw archive, monetary values, source workbook or row dumps in public Git"
+}

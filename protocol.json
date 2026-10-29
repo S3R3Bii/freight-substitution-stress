@@ -46,7 +46,7 @@
     "corridor": "1",
     "support": "strict"
   },
-  "units": "thousand tons in the 2022 benchmark",
+  "units": "thousand short tons in the 2022 benchmark",
   "seed": null,
   "selection": "No fitting, model selection, tuning or randomized computation; all 512 cases retained.",
   "quality_gates": [
@@ -55,5 +55,10 @@
     "Unique source dimensions",
     "Independent source-row and aggregate reconciliation",
     "All eight fixed commodities and four fixed closures retained, including zero demands"
-  ]
+  ],
+  "source_fields": {
+    "entry": "dms_origst",
+    "destination": "dms_destst",
+    "weight": "tons_2022"
+  }
 }

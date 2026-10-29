@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "selected_rows": 8563,
+  "aggregate_cells": 8563,
+  "duplicate_aggregate_cells": 0,
+  "projection_checks": 85632,
+  "raw_field_checks": 102756,
+  "raw_archive": "PASS",
+  "units": "thousand short tons in the 2022 benchmark"
+}

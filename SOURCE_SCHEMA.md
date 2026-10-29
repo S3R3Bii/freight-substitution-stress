@@ -1,0 +1,3 @@
+# Header-only clarification before value inspection
+
+The official archive was retrieved after protocol commit adcdd61864c73091189c094f120c97f556a33465. Only CSV headers and the included metadata workbook were inspected before this clarification; no flow values or scenario outcomes were inspected. The state CSV uses dms_origst, dms_destst and tons_2022 for the generic guide's dms_orig, dms_dest and tons. All filters, commodities, closures, parameter factors and tests remain fixed. The included metadata specifies **thousand short tons**. This is a schema/unit clarification before analysis, not an outcome-driven selection. SCTG17 uses the official short label Gasoline; no product-level composition is inferred.

@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-10-29T20:02:11.873551+00:00",
+  "source_commit": "bab87e6f887760fc62ca9d0d7058f7940304c07c",
+  "held_outcomes_inspected": false,
+  "selection": "No model/parameter selection; every fixed case retained. Source rows and quality visible; held analytical summaries not yet run.",
+  "dependencies": {
+    "protocol.json": "8a12549b4cbbc4e1aee4402cc7b4e54070dfb6f2fe067b9c78d930dcbb33559b",
+    "PROTOCOL.md": "6ebb9fe42a23f31c486958777c23489b6d0f9f31d874f117d5ddede246de4403",
+    "SOURCE_SCHEMA.md": "53f4457d448fa86417ff293236e6d91a800be68648302153a78e47ea55b0a051",
+    "SOURCES.md": "3582289227137953f4faa622c81eccdbd7681cbd7eaa80708cc2aa554592b404",
+    "data/README.md": "acbfef4cf98dc8c0474f900b1e80a3394eb51d3b2ef5d35c9462af089da4da87",
+    "data/labels.json": "86d94062c9c29cc9db1c90080cc843206dcad1be109fd0a221d11973d19a1d25",
+    "data/source/flows.csv.gz": "5a83b81b8a4c5b366e4671c6bd4b6262066f785879dae0995192d32b030c3862",
+    "data/source/manifest.json": "a111023607b5a9eee869e91c758304248445c7475580dd0f584a676a308ed439",
+    "data/source/VERIFICATION.json": "e4f218d130d6f03ee6b3659d5a108e6e3626f889be065ba1c5c166ee822b4dda",
+    "data/source/INDEPENDENT_PARSE.json": "e94c84c45782bcaac21fb3057aa549157c53b3d21b8419cfd5817e5efced0b66",
+    "src/ingest.py": "e4a52ceaa1c4ca39ed5dddf56dfbdf9b6b5e3c75902d285268f4e262b7410fc8",
+    "src/model.py": "bd4bcf0c7ee84725dc48254cb4e9f7d6003140b2eb631bd3bf5a5151267321fb",
+    "src/run_analysis.py": "fa0c030e807eac1dfbe73a7aa2738b6ad59d35357531fe324672823bf64ba0a1",
+    "src/verify_source.py": "04d75af283375b0ce3997304e884b14a6e761f0a65e663a6209f1eb1558f5992",
+    "src/verify_results.py": "97c33b652d8f7b1221c845088bbe55bb76ff6d91fc2625d86fc3dab4400b6454",
+    "src/verify_freeze.py": "f01013d6ae0d01a839fc3fd779964e9cfa311626416dd8248aa6fa9c4c337d58",
+    "tests/test_flow.py": "17586e13907c14419fee1ff341827138c3a3e0b50bb1df43ce1c56fed789d38d"
+  },
+  "development_verification": {
+    "status": "PASS",
+    "phase": "development",
+    "cases": 256,
+    "exact_checks": 813520,
+    "monotonicity_checks": 1152,
+    "positive_flow_edges": 54635,
+    "zero_demand_cases": 0,
+    "optimality": "Every exact feasible flow equals a separately reconstructed cut capacity; residual reachability also checked",
+    "source_projection_checks": 85632
+  }
+}
